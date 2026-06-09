@@ -3,39 +3,31 @@
 
 nodetest/test folder
 
-node getlatestvideo.js
+
+run qwen first in the backend.
+
+ollama 
+
+node getlatestvideo.js   
+
+```
+
+"https://www.youtube.com/@RickOrford",
+ 10 
+ 11     "https://www.youtube.com/@MarketBeatMedia",
+ 12 
+ 13     "https://www.youtube.com/@YahooFinance",
+ 14 
+ 15     "https://www.youtube.com/@ashleytradingwithashley",
+ 16     "https://www.youtube.com/@leelowell",
+ 17     
+ 18     "https://www.youtube.com/@CNBC"
 
 
+```
 
 shows the transcripts, and goes to LLM to get a conclusion 
 
 
-
-listofurls.js
-
-```
-async function run() {
-
-    const urls = [
-
-        "https://www.youtube.com/@RickOrford",
-
-        "https://www.youtube.com/@MarketBeatMedia",
-
-        "https://www.youtube.com/@YahooFinance",
-
-        "https://www.youtube.com/@CNBC"
-    ];
-
-    for (const url of urls) {
-
-        const result =
-            await getYoutubeChannelId(url);
-
-        console.log(result);
-    }
-}
-
-run();
 
 ```
